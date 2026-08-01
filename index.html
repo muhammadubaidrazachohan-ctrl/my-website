@@ -1,1 +1,451 @@
 
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Sweet Dreams Bakery House | Karachi Cakes</title>
+
+<meta name="description" content="Sweet Dreams Bakery House offers fresh cakes and online cake delivery in Karachi.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<style>
+
+body{
+font-family:Arial,sans-serif;
+background:#fff5f8;
+margin:0;
+text-align:center;
+}
+
+
+header{
+background:#d63384;
+color:white;
+padding:30px;
+}
+
+
+.logo{
+font-size:32px;
+font-weight:bold;
+}
+
+
+.banner{
+width:90%;
+max-width:800px;
+height:280px;
+object-fit:cover;
+border-radius:20px;
+}
+
+
+.section{
+padding:20px;
+}
+
+
+.offer{
+background:#ffe6f0;
+margin:20px;
+padding:20px;
+border-radius:15px;
+}
+
+
+.gallery{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+
+.gallery div{
+background:white;
+margin:15px;
+padding:15px;
+border-radius:15px;
+width:250px;
+box-shadow:0 0 10px #ccc;
+}
+
+
+.gallery img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:15px;
+}
+
+
+.cakes{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+
+.cake{
+background:white;
+width:300px;
+margin:15px;
+padding:20px;
+border-radius:20px;
+box-shadow:0 0 10px #ccc;
+}
+
+
+.cake img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:15px;
+}
+
+
+.price{
+color:#d63384;
+font-size:22px;
+font-weight:bold;
+}
+
+
+button{
+background:#25D366;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:25px;
+font-size:16px;
+}
+
+
+.form{
+background:white;
+width:300px;
+margin:auto;
+padding:20px;
+border-radius:20px;
+box-shadow:0 0 10px #ccc;
+}
+
+
+input,select,textarea{
+
+width:90%;
+padding:10px;
+margin:8px;
+border-radius:8px;
+border:1px solid #ccc;
+
+}
+
+
+textarea{
+height:80px;
+}
+
+
+footer{
+background:#d63384;
+color:white;
+padding:15px;
+}
+
+
+@media(max-width:600px){
+
+.cake{
+width:85%;
+}
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+🎂 Sweet Dreams Bakery House 🎂
+</div>
+
+<p>Fresh Cakes Made With Love</p>
+
+<p>✨ Karachi's Best Online Cake Delivery ✨</p>
+
+</header>
+
+
+
+<div class="section">
+
+<img class="banner" src="https://images.unsplash.com/photo-1578985545062-69928b1d9587">
+
+</div>
+
+
+
+<div class="offer">
+
+<h2>🎁 Special Offers</h2>
+
+<p>🎉 Birthday Cake 10% OFF</p>
+
+<p>🍰 Weekend Special Offer</p>
+
+<p>🚚 Free Delivery on Selected Orders</p>
+
+</div>
+
+
+
+<h2>🖼️ Cake Gallery</h2>
+
+
+<div class="gallery">
+
+
+<div>
+<img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587">
+<p>Chocolate Cake</p>
+</div>
+
+
+<div>
+<img src="https://images.unsplash.com/photo-1535254973040-607b474cb50d">
+<p>Birthday Cake</p>
+</div>
+
+
+<div>
+<img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3">
+<p>Strawberry Cake</p>
+</div>
+
+
+</div>
+
+
+
+<h2>🍰 Our Cakes</h2>
+
+
+<div class="cakes">
+<div class="cake">
+
+<h2>🍫 Chocolate Cake</h2>
+
+<img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587">
+
+<p>Delicious chocolate cake</p>
+
+<p class="price">Rs. 1500</p>
+
+<button onclick="orderCake('Chocolate Cake')">
+Order on WhatsApp
+</button>
+
+</div>
+
+
+
+<div class="cake">
+
+<h2>🎉 Birthday Cake</h2>
+
+<img src="https://images.unsplash.com/photo-1535254973040-607b474cb50d">
+
+<p>Perfect birthday cake</p>
+
+<p class="price">Rs. 2000</p>
+
+<button onclick="orderCake('Birthday Cake')">
+Order on WhatsApp
+</button>
+
+</div>
+
+
+
+<div class="cake">
+
+<h2>🍓 Strawberry Cake</h2>
+
+<img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3">
+
+<p>Fresh strawberry flavour</p>
+
+<p class="price">Rs. 1800</p>
+
+<button onclick="orderCake('Strawberry Cake')">
+Order on WhatsApp
+</button>
+
+</div>
+
+
+
+<div class="cake">
+
+<h2>❤️ Red Velvet Cake</h2>
+
+<img src="https://images.unsplash.com/photo-1586788680434-30d324b2d46f">
+
+<p>Premium red velvet cake</p>
+
+<p class="price">Rs. 2500</p>
+
+<button onclick="orderCake('Red Velvet Cake')">
+Order on WhatsApp
+</button>
+
+</div>
+
+
+
+<div class="cake">
+
+<h2>🧁 Cupcake Box</h2>
+
+<img src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62">
+
+<p>Beautiful cupcake collection</p>
+
+<p class="price">Rs. 1200</p>
+
+<button onclick="orderCake('Cupcake Box')">
+Order on WhatsApp
+</button>
+
+</div>
+
+
+</div>
+
+
+
+<div class="section">
+
+<h2>🛒 Place Your Order</h2>
+
+
+<div class="form">
+
+<input id="name" placeholder="Your Name">
+
+
+<input id="phone" placeholder="Your Phone Number">
+
+
+<select id="cake">
+
+<option>Select Cake</option>
+<option>Chocolate Cake</option>
+<option>Birthday Cake</option>
+<option>Strawberry Cake</option>
+<option>Red Velvet Cake</option>
+<option>Cupcake Box</option>
+
+</select>
+
+
+<textarea id="address" placeholder="Your Address"></textarea>
+
+
+<br>
+
+<button onclick="sendOrder()">
+Send Order on WhatsApp
+</button>
+
+
+</div>
+
+</div>
+
+
+
+<div class="section">
+
+<h2>📞 Contact Us</h2>
+
+<p>WhatsApp: 03212778339</p>
+
+<p>📍 Location: Karachi</p>
+
+<p>🚚 Online Cake Delivery Available</p>
+
+<p>🚚 Delivery charges may vary depending on the location.</p>
+
+</div>
+
+
+
+<div class="section">
+
+<h2>⭐ Customer Reviews</h2>
+
+<p>"Amazing cakes and great taste!"</p>
+
+<p>"Fast delivery in Karachi."</p>
+
+</div>
+
+
+
+<footer>
+
+<p>© Sweet Dreams Bakery House</p>
+
+</footer>
+
+
+
+<script>
+
+function orderCake(cake){
+
+let msg="I want to order "+cake;
+
+window.open("https://wa.me/923212778339?text="+msg);
+
+}
+
+
+function sendOrder(){
+
+let name=document.getElementById("name").value;
+
+let phone=document.getElementById("phone").value;
+
+let cake=document.getElementById("cake").value;
+
+let address=document.getElementById("address").value;
+
+
+let message=
+"New Cake Order%0A"+
+"Name: "+name+"%0A"+
+"Phone: "+phone+"%0A"+
+"Cake: "+cake+"%0A"+
+"Address: "+address;
+
+
+window.open("https://wa.me/923212778339?text="+message);
+
+}
+
+</script>
+
+
+</body>
+</html>
